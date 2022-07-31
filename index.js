@@ -1,2 +1,3 @@
-const Employee = require('./lib/Employee');
-const Manager = require('./lib/Manager');
+const Roster = require('./lib/Roster');
+
+new Roster().addNewManager();
