@@ -1,3 +1,6 @@
+const Manager = require('../lib/Manager');
+jest.mock('../lib/Manager');
+
 const Roster = require('../lib/Roster');
 
 test('does it correctly change userInput array', () => {
