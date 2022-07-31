@@ -17,4 +17,9 @@ describe('tests the Employee constructor', () => {
         const employee = new Employee('Andrew', 1, 'ahudg@ahudg.com');
         expect(employee.getId()).toEqual(1);
     })
+
+    test('checks if getEmail returns the object email', () => {
+        const employee = new Employee('Andrew', 1, 'ahudg@ahudg.com');
+        expect(employee.getEmail()).toBe('ahudg@ahudg.com');
+    })
 });
