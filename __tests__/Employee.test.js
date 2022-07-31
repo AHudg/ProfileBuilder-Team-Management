@@ -22,4 +22,9 @@ describe('tests the Employee constructor', () => {
         const employee = new Employee('Andrew', 1, 'ahudg@ahudg.com');
         expect(employee.getEmail()).toBe('ahudg@ahudg.com');
     })
+
+    test('checks if getRole returns the object role (i.e., Employee', () => {
+        const employee = new Employee('Andrew', 1, 'ahudg@ahudg.com');
+        expect(employee.getRole()).toBe('Employee');
+    })
 });
