@@ -1,3 +1,7 @@
 const Roster = require('./lib/Roster');
 
-new Roster().addNewManager();
+const roster = new Roster();
+console.log(roster.employees);
+roster.addNewManager();
+
+setTimeout((myConsole) => {console.log(roster.employees);}, 60000);
