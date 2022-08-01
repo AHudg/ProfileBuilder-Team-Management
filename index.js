@@ -1,4 +1,3 @@
 const Roster = require('./lib/Roster');
 
-const roster = new Roster();
-roster.addNewManager();
+const roster = new Roster().addNewManager();
