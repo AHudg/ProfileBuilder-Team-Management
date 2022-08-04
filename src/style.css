@@ -21,7 +21,3 @@ h1 {
   display: inline;
   border-bottom: double 6px var(--bg-border);
 }
-
-footer {
-  color: var(--bg-border);
-}
