@@ -34,6 +34,9 @@ The use of Javascript classes allowed the creation of an overall Employee class 
 ![A screenshot showing the use of JavaScript classes](./src/parentClassREADME.png)
 ![A screenshot showing the use of JavaScript class inheritance](./src/inheritanceREADME.png)
 
+Displayed below is a sample html generated from the code and shown in the [walkthrough](https://drive.google.com/file/d/1ioCE3W2VjozG5bdyTv5wbJ2XCXc1g1h0/view) video. It color codes the employees by job position and includes the specific inquiries retrieved from the user. All links are clickable and the page is responsive utilizing Bootstrap.
+
+![A screenshot showing the sample roster html generated using the code.](./src/sampleHtmlREAME.png)
 
 ## -=Contact=-
 View the [walkthrough](https://drive.google.com/file/d/1ioCE3W2VjozG5bdyTv5wbJ2XCXc1g1h0/view) for this project and check out my other work on my [GitHub](https://github.com/AHudg).
